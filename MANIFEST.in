@@ -1,0 +1,2 @@
+recursive-include dt_publisher/patches *
+recursive-include dt_publisher/templates *
