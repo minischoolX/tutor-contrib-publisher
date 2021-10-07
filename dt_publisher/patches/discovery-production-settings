@@ -1,0 +1,3 @@
+CORS_ORIGIN_WHITELIST = list(CORS_ORIGIN_WHITELIST) + [
+    "{{ MFE_HOST }}"
+]

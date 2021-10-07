@@ -1,0 +1,1 @@
+FEATURES['FRONTEND_APP_PUBLISHER_URL'] = "{% if ENABLE_HTTPS %}https{% else %}http{% endif %}://{{ MFE_HOST }}/{{ DT_PUBLISHER_MFE_APP['name'] }}"

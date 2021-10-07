@@ -34,17 +34,13 @@ setup(
     },
     license="AGPLv3",
     author="Dicey Tech",
-    description="dt_publisher plugin for Tutor",
+    description="Publisher plugin for Tutor",
     long_description=load_readme(),
     packages=find_packages(exclude=["tests*"]),
     include_package_data=True,
     python_requires=">=3.5",
     install_requires=["tutor"],
-    entry_points={
-        "tutor.plugin.v0": [
-            "dt_publisher = dt_publisher.plugin"
-        ]
-    },
+    entry_points={"tutor.plugin.v0": ["dt_publisher = dt_publisher.plugin"]},
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
