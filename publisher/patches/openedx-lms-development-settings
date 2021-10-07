@@ -1,0 +1,1 @@
+FEATURES['FRONTEND_APP_PUBLISHER_URL'] = "http://{{ MFE_HOST }}:{{ PUBLISHER_MFE_APP['port'] }}/publisher"

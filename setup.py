@@ -13,7 +13,7 @@ def load_readme():
 def load_about():
     about = {}
     with io.open(
-        os.path.join(HERE, "dt_publisher", "__about__.py"),
+        os.path.join(HERE, "publisher", "__about__.py"),
         "rt",
         encoding="utf-8",
     ) as f:
@@ -25,12 +25,12 @@ ABOUT = load_about()
 
 
 setup(
-    name="dt-publisher-plugin",
+    name="tutor-contrib-publisher",
     version=ABOUT["__version__"],
-    url="https://github.com/Dicey-Tech/dt-publisher-plugin",
+    url="https://github.com/Dicey-Tech/tutor-contrib-publisher",
     project_urls={
-        "Code": "https://github.com/Dicey-Tech/dt-publisher-plugin",
-        "Issue tracker": "https://github.com/Dicey-Tech/dt-publisher-plugin/issues",
+        "Code": "https://github.com/Dicey-Tech/tutor-contrib-publisher",
+        "Issue tracker": "https://github.com/Dicey-Tech/tutor-contrib-publisher/issues",
     },
     license="AGPLv3",
     author="Dicey Tech",
@@ -40,7 +40,7 @@ setup(
     include_package_data=True,
     python_requires=">=3.5",
     install_requires=["tutor"],
-    entry_points={"tutor.plugin.v0": ["dt_publisher = dt_publisher.plugin"]},
+    entry_points={"tutor.plugin.v0": ["publisher = publisher.plugin"]},
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",

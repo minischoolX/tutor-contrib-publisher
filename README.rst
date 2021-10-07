@@ -6,14 +6,13 @@ Installation
 
 ::
 
-    pip install git+https://github.com/Dicey-Tech/dt-publisher-plugin
-
+    pip install git+https://github.com/Dicey-Tech/tutor-contrib-publisher
 Usage
 -----
 
 ::
 
-    tutor plugins enable dt_publisher
+    tutor plugins enable publisher
 
 
 License
