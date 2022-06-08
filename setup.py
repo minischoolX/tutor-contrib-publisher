@@ -27,10 +27,10 @@ ABOUT = load_about()
 setup(
     name="tutor-contrib-publisher",
     version=ABOUT["__version__"],
-    url="https://github.com/Dicey-Tech/tutor-contrib-publisher",
+    url="https://github.com/minischoolx/tutor-contrib-publisher",
     project_urls={
-        "Code": "https://github.com/Dicey-Tech/tutor-contrib-publisher",
-        "Issue tracker": "https://github.com/Dicey-Tech/tutor-contrib-publisher/issues",
+        "Code": "https://github.com/minischoolx/tutor-contrib-publisher",
+        "Issue tracker": "https://github.com/minischoolx/tutor-contrib-publisher/issues",
     },
     license="AGPLv3",
     author="Dicey Tech",
