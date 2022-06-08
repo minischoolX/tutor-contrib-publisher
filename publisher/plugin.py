@@ -13,7 +13,7 @@ config = {
     "defaults": {
         "MFE_APP": {
             "name": "publisher",
-            "repository": "https://github.com/Dicey-tech/frontend-app-publisher",
+            "repository": "https://github.com/minischoolx/frontend-app-publisher",
             "port": 18400,
             "version": "master",
         }
